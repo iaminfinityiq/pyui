@@ -1,9 +1,7 @@
 from pyui.vector2 import Vector2Int
 from pyui.window import Window
 from .base_class import Component
-from .color import Color
 import pygame
-
 pygame.init()
 
 class Image(Component):
